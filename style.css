@@ -1,0 +1,79 @@
+.head {
+    background-color: #272532;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 1px;
+    border-style: dashed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #373B69;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game {
+    background-color: #272532;
+    border-radius: 7px;
+    width: 250px;
+    box-shadow: 0px 4px 5px #272532;
+    padding-top: 0px;
+    margin: 4rem 4rem 4rem 8rem;
+    position: relative;
+}
+
+.game img {
+    max-width: 100%;
+    border: solid white 2px;
+    transition: transform 350ms ease-in-out;
+}
+
+.game-info {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    display:grid;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    position: relative;
+
+}
+
+.game-info h3 {
+    margin: 20px;
+}
+
+.game-info span {
+    background-color: 373B69;
+    color: white;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+}
+
+.second {
+    color: red;
+}
+
+.game-info span:nth-child(3) {
+    padding-top: 300px;
+    color: green;
+    position: absolute;
+
+}
+
+
+.game:hover {
+    background-color: rgb(92, 91, 91);
+}
+
+.game:hover img {
+    transform: scale(1.2)
+}
